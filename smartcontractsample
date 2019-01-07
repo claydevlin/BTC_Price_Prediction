@@ -9,8 +9,8 @@ pragma solidity 0.4.25;
             Prediction prediction = Prediction(watch_addr);
             
             // fill your blocktestUserId and your prediction values below
-            string memory _blockTESTUserId = "";
-            string memory _value = "";
+            string memory _blockTESTUserId = "6a7ba0c41e73bd55e6f7ac51ad36624202d0217c";
+            string memory _value = "9500";
             
             // calling the main contract function to save the value
             prediction.predict(_blockTESTUserId, _value);
